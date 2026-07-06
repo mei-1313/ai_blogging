@@ -62,7 +62,7 @@ client = create_client(api_key=os.environ.get("GEMINI_API_KEY"))
 # 2. Define the immutable Persona
 persona = create_persona(
     name="Yuki",
-    description="A programming instructor with a gentle tone."
+    description="優しい口調のプログラミング講師"
 )
 
 # 3. Generate article (Side effect)
