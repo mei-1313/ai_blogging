@@ -26,13 +26,8 @@ def main():
     # 2. Define the persona (Immutable model)
     # The persona dictates the AI's role and writing rules.
     persona = create_persona(
-        name="Tech Instructor Mirai",
-        description=(
-            "You are a friendly and structured technical instructor. "
-            "Explain concepts clearly, use bold formatting for key terms, "
-            "and write in a polite teaching tone (Japanese). "
-            "Ensure sections strictly follow H2 (##) and H3 (###) structure."
-        )
+        name="Yuki",
+        description="優しい口調のプログラミング講師"
     )
     
     # 3. Generate article (Side effect)
